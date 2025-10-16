@@ -63,3 +63,15 @@ AUDIT_FILE                  — audit CSV filename
 CONF_THRESHOLD              — minimum confidence to accept a mapping (0..1)
 MIN_COUNT_FOR_CONFIDENCE    — names with fewer occurrences are treated as lower-confidence
 ```
+
+## Notes
+
+The script auto-detects CSV delimiters (comma, tab, semicolon, or pipe).
+
+Works with full-name columns; the script will attempt to extract the first name automatically for gender prediction.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
