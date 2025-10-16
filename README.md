@@ -35,7 +35,7 @@ Place your files in the project folder:
 ```text
 NameGenderMapper.py         — the main script
 reference-names.csv         — CSV with at least name and gender columns (optional country)
-input.csv                   — the dataset you want to process
+file-to-sort.csv                   — the dataset you want to process
 ```
 
 
@@ -48,8 +48,8 @@ python NameGenderMapper.py
 Output files:
 
 ```text
-people_with_gender2.csv      — main output with gender info
-ambiguous_first_names2.csv   — audit file for manual review
+people_with_gender.csv      — main output with gender info added
+ambiguous_first_names.csv   — audit file for manual review
 ```
 
 Inside the script, you can adjust:
