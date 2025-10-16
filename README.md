@@ -1,7 +1,8 @@
 # NameGenderMapper
 
-A **memory-efficient Python tool** to detect gender from first names in large CSV datasets.
-It generates **gender**, **confidence scores**, and flags ambiguous names for manual review.
+A **memory-efficient Python tool** to detect gender from names in large CSV datasets.  
+It can process **first names alone** or **full names** (first and last combined in a single column).  
+The script generates **gender predictions**, **confidence scores**, and flags ambiguous names for manual review. 
 
 ---
 
