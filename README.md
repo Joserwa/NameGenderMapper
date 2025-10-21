@@ -36,7 +36,7 @@ Place your files in the project folder:
 ```text
 NameGenderMapper.py         — the main script
 reference-names.csv         — CSV with at least name and gender columns (optional country)
-file-to-sort.csv                   — the dataset you want to process
+file-to-sort.csv            — the dataset you want to process
 ```
 
 
